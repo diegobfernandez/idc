@@ -208,7 +208,7 @@ to customize functionality.
 ```nix
 idc {
     src = my-source;
-    loader = "flake";
+    loader = "nilla";
     settings = {
         # Choose a different file to import in the source.
         target = "subdir/nilla.nix";
